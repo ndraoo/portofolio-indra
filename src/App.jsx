@@ -9,6 +9,10 @@ import Project1 from "./assets/lelang.png";
 import Project2 from "./assets/project5.png";
 import Project3 from "./assets/perpustakaan.png";
 import Project4 from "./assets/snake.png";
+import Project5 from "./assets/apotek.jpg";
+import Project6 from "./assets/smartschool.png";
+
+
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
@@ -159,6 +163,34 @@ function App() {
             <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={Project5} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold mt-8">
+                  Apotek Online
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">                
+                  Sebuah Apotek Online menggunakan backend laravel 11 dan frontend reactjs. untuk github hanya untuk frontend react js saja.
+                </p>
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                   <a href="https://github.com/ndraoo/apotek-online.git">
+                    Checkout github
+                    </a> 
+                  </button>
+                </div>
+              </div>
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={Project6} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold mt-8">
+                  Smartschool - Invoice Payments API FLIP
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  Tugas Akhir menambahkan fitur Invoice Payments menggunakan API FLIP 
+                  - untuk source code dan tampilannya bersifat rahasia 
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-10 mt-11">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
                   Pelelangan Online
@@ -200,8 +232,7 @@ function App() {
                 <p className="text-gray-400 text-sm mt-2">
                   Sebuah Perpustakaan online menggunakan laravel 9, untuk ujikom du/di.
                 </p>
-                <div className="flex gap-4 mt-12">
-              
+                <div className="flex gap-4 mt-12"> 
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     <a href="">
                     Checkout github
@@ -247,7 +278,25 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Sass & Bootstrap</h2>
+                  <h2 className="font-semibold">
+                    RESTful API
+                  </h2>
+                  <p className="text-gray-500">Intermediate</p>
+                </div>
+                <span className="w-[55%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <h2 className="font-semibold">
+                    React JS
+                  </h2>
+                  <p className="text-gray-500">Beginner</p>
+                </div>
+                <span className="w-[35%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <h2 className="font-semibold">CSS, TailwindCSS & Bootstrap</h2>
                   <p className="text-gray-500">Intermediate</p>
                 </div>
                 <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
@@ -257,9 +306,9 @@ function App() {
                   <h2 className="font-semibold">
                     JavaScript
                   </h2>
-                  <p className="text-gray-500">Beginner</p>
+                  <p className="text-gray-500">Intermediate</p>
                 </div>
-                <span className="w-[40%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -277,10 +326,17 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">Github</h2>
-                  <p className="text-gray-500">Beginner</p>
+                  <h2 className="font-semibold">PostgreSQL</h2>
+                  <p className="text-gray-500">Intermediate</p>
                 </div>
-                <span className="w-[30%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              </div>
+              <div className="mt-8">
+                <div className="flex justify-between items-center">
+                  <h2 className="font-semibold">Github</h2>
+                  <p className="text-gray-500">Expert</p>
+                </div>
+                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
            
             </div>
