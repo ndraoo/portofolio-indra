@@ -11,8 +11,7 @@ import Project3 from "./assets/perpustakaan.png";
 import Project4 from "./assets/snake.png";
 import Project5 from "./assets/apotek.jpg";
 import Project6 from "./assets/smartschool.png";
-
-
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
@@ -148,7 +147,7 @@ function App() {
 
                   I am a recent graduate from a vocational high school (SMK), but I already have some experience in programming.
 
-                  Currently, I am proficient in several technologies, including PHP, Laravel, Tailwind CSS, JavaScript, and MySQL.
+                  Currently, I am proficient in several technologies, including PHP,Restful API, React JS, Laravel, Tailwind CSS, JavaScript, PostgreSQL and MySQL.
 
                   You can contact me via email at: indraprnm104@gmail.com
                 </p>
@@ -342,7 +341,7 @@ function App() {
             </div>
           </div>
         </section>
-
+        <Analytics />
       </main>
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
