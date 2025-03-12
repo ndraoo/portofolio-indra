@@ -221,24 +221,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row  gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Project3} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">
-                  Perpustakaan Online
-                </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Sebuah Perpustakaan online menggunakan laravel 9.
-                </p>
-                <div className="flex gap-4 mt-12"> 
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                    <a href="">
-                    Checkout github
-                    </a>
-                  </button>
-                </div>
-              </div>
-            </div>
+  
           </div>
         </section>
         {/* Technoglies section */}
