@@ -167,7 +167,7 @@ function App() {
                   Apotek Online
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">                
-                  Sebuah Apotek Online menggunakan backend laravel 11 dan frontend reactjs. untuk github hanya untuk frontend react js saja.
+                  Sebuah website apotek online yang dibuat menggunakan backend Laravel dan frontend React Js.
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
@@ -183,8 +183,7 @@ function App() {
                   Smartschool - Invoice Payments API FLIP
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Tugas Akhir menambahkan fitur Invoice Payments menggunakan API FLIP 
-                  - untuk source code dan tampilannya bersifat rahasia 
+                  Menambahkan fitur Invoice Payments menggunakan API FLIP 
                 </p>
               </div>
             </div>
@@ -195,7 +194,7 @@ function App() {
                   Pelelangan Online
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  sebuah pelelangan online menggunakan laravel 9.
+                  Sebuah pelelangan online.
                 </p>
                 <div className="flex mt-12 gap-2">
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
@@ -211,7 +210,7 @@ function App() {
                   Monitoring Keuangan Masjid
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                 pembuatan website Monitoring Keuang Masjid ketika saya sedang prakerin
+                  Website Monitoring Keuang Masjid.
                 </p>
                 <div className="flex gap-2 mt-12">
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
@@ -229,34 +228,13 @@ function App() {
                   Perpustakaan Online
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Sebuah Perpustakaan online menggunakan laravel 9, untuk ujikom du/di.
+                  Sebuah Perpustakaan online menggunakan laravel 9.
                 </p>
                 <div className="flex gap-4 mt-12"> 
                   <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     <a href="">
                     Checkout github
                     </a>
-                  </button>
-                </div>
-              </div>
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Project4} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">
-                    Snake Games
-                  </h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Sebuah game jadul snake game menggunakan javascript.
-                </p>
-                <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                    <a href="https://ndraoo.github.io/snake-games-sederhana.github.io/">
-                      Live preview
-                    </a>
-                  </button>
-                  <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                      <a href="https://github.com/ndraoo/snake-games-sederhana.github.io">
-                        Checkout github
-                      </a>
                   </button>
                 </div>
               </div>
@@ -329,13 +307,6 @@ function App() {
                   <p className="text-gray-500">Intermediate</p>
                 </div>
                 <span className="w-[50%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
-              </div>
-              <div className="mt-8">
-                <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">Github</h2>
-                  <p className="text-gray-500">Intermediate</p>
-                </div>
-                <span className="w-[60%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
            
             </div>
